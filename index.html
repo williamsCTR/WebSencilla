@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebSite</title>
+
+  <!--BOOTSTRAP 5.2.2-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <!--SCROLL REVEAL-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--GOOGLE FRONTS-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!--CUSTON CSS-->
+  <link rel="stylesheet" href="./css/main.css">
+
+
+</head>
+
+<body>
+
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><b>WebSite</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#info_id">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_id">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Header-->
+  <header class="header" id="header_id">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="header__container--left">
+            <img class="img1" src="./img/image1.png" alt="smartphone">
+          </div>
+        </div>
+        <div class="col-md-6 my-auto">
+          <div class="header__container--right">
+            <h1 class="display-4"><b>Sit asperiores voluptas atque autem?</b></h1>
+            <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Minima eaque quisquam expedita iure? Asperiores dolorum similique
+              excepturi voluptatem eos alias fuga neque quaerat deleniti? Magni
+              harum laudantium quae esse architecto.</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg mt-2"> Read More </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--TESTIMONIAL-->
+  <section class="testimonial" id="testimonial_id">
+    <div class="container">
+      <p class="h2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora reiciendis sequi quis perspiciatis
+        neque nulla molestiae ipsa, nostrum odit fuga dolore ex facere voluptatem nemo vitae ducimus vero autem iusto.
+      </p>
+      <p class="h4">-Lorem, lorem.</p>
+    </div>
+  </section>
+
+  <!--INFO-->
+  <section class="info" id="info_id">
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="info__container--left">
+            <img class="img2" src="./img/image2.png" alt="smartphone">
+          </div>
+        </div>
+        <div class="col-md-6 my-auto">
+          <div class="info__container--right">
+            <h2>Lorem ipsum dolor sit.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum dicta magnam quos iste id,
+              natus dolorem deserunt magni est libero illum ad qui voluptatem? Eligendi labore soluta repellat sit
+              doloremque?</p>
+            <a href="#" class="btn btn-outline-secondary btn-lg mt-2"> Read more </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--INFO TWO-->
+  <section class="infoTwo" id="infoTwo_id">
+    <div class="container py-5">
+      <div class="row my-5">
+        <div class="col-md-6 px-5">
+          <h2> Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a iste repellendus,
+            accusamus explicabo soluta odit quisquam aut quaerat dolorem nobis incidunt quo quasi dolore, totam est
+            molestiae eveniet voluptates!</p>
+        </div>
+        <div class="col-md-6 px-5">
+          <h2> Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque a iste repellendus,
+            accusamus explicabo soluta odit quisquam aut quaerat dolorem nobis incidunt quo quasi dolore, totam est
+            molestiae eveniet voluptates!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CONTACT-->
+  <section class="contact" id="contact_id">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-5">
+          <form class="card mt-4">
+            <div class="card-body">
+              <div class="form-group py-1">
+                <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group py-1">
+                <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group py-3">
+                <textarea cols="30" rows="10" placeholder="Message" class="form-control textarea"></textarea>
+              </div>
+              <div class="d-grid gap-2 py-3">
+                <button class="btn btn-outline-secondary btn-lg">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container py-2">
+      <a href="http://willydeveloper.com" target="_blank" rel="noopener noreferrer">@Williams Cantero Developer
+        <span>2.022</span></a>
+    </div>
+  </footer>
+
+  <!--BOOTSTRAP 5.2.2 JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!--CUSTON JS-->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
